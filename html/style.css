@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Expletus+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+header h1{
+    font-family: "Agbalumo", system-ui;
+}
+section p{
+    font-family: "Expletus Sans", sans-serif;
+}
+header, nav, footer, main{
+    width: 100%;
+    background-color: #3D8D7A;
+    color: #FBFFE4;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    height: auto;
+    border-color: #B3D8A8
+}
+nav ul{
+    text-align: center;
+}
+nav ul li{
+    width: 10%;
+    min-width: 100px;
+    list-style-type: none;
+    background-color: #FBFFE4;
+    color: #3D8D7A;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+nav ul li a:link, nav ul li a:visited{
+    color: #A3D1C6;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: red;
+}
+nav ul li:hover{
+    background-color: darkgrey;
+    width: 95px;
+    font-size: 18px;
+}
+main{
+    height: auto;
+    background-color: #FBFFE4;
+}
+section{
+    width: 80%;
+    height: auto;
+    background-color: #A3D1C6;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+}
+h2, p{
+    margin-bottom: 30px;
+}
+h2{
+    color: darkslategrey
+}
+#tabla_1{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tabla_1
+#tabla_1 th, #tabla_1 td, #tabla_2 th, #tabla_2 td, tabla_3 th, tabla_3 td{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#tabla_1 th, #tabla_2 th,table_3 th{
+    background-color: darkslategray;
+}
+#tabla_3{
+    width: 80%
+}
+
+#tabla_1 td{
+    background-color: slategray;
+}
+#tabla_2{
+    width: 100%;
+    /*border-style: solid;
+    border-color: yellow;
+    border: 5px;*/
+    border: 5px solid yellow;
+}
+#tabla_2 th, #tabla_2 td{
+    border: 1px solid yellow;
+}
+#tabla_2 tbody tr:nth-child(even){
+    background-color: brown;
+}
+#tabla_2 tbody tr:nth-child(odd){
+    background-color: forestgreen;
+    
+}
+#tabla_3{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #B3D8A8;
+    border-collapse: collapse;
+}
+#tabla_3 th{
+    height: 60px;
+}
+#tabla_3 td{
+    height: 50px;
+    padding-left: 10px;
+}
+#tabla_3 th, #tabla_3 td{
+    border:  solid darkslategrey
+}
+#tabla_3 tr:hover{
+    background-color: yellow;
+    color: darkslategray;
+}
+h1, h6{
+    text-align-last: center;
+    font-size: 48px;
+}
+h6{
+    font-size: 18px;
+}
+img{
+    width: 500%;
+}
+.imagenes_box{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.imagen_flotante_izq{
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+}
+.imagen_flotante_der{
+    width: 20%;
+    float: right;
+    margin-left: 20px;
+}
+.fondo{
+    background-image: url(../imagenes/itl.cat_wallpapers-full-hd_77829.png);
+    background-size: cover;
+}
+.imagen_enlace{
+    width: 64px;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section-filtros{
+    color: greenyellow;
+    text-align: center;
+}
+.section-filtros img{
+    width: 25%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+form{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    background-color: darkblue;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+label{
+    color: cadetblue;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+input[type=password],input[type=text], select{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: skyblue;
+    color: darkcyan;
+    border: 3px solid green;
+}
+input[type=submit]{
+    width: 20%;
+    min-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 10px;
+    background-color: aliceblue;
+    color: darkblue;
+    border: 3px solid darkgreen;
+    border-radius: 10px;
+}
+input[type=text]:focus,input[type=password]:focus{
+    color: antiquewhite;
+    background-color: dodgerblue;
+}
+RedSocial{
+    margin-left: auto;
+    margin-right: auto;
+}
